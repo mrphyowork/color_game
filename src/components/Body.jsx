@@ -38,7 +38,7 @@ const Body = () => {
         alt="baby"
         className="w-40 h-70 fixed top-8 object-cover rounded-lg"
       />
-      <h1 className="text-3xl font-bold mt-50">
+      <h1 className="text-3xl font-bold mt-60">
         <IoGameController className="inline text-red-500" />{" "}
         <span className="text-green-600"> C </span>{" "}
         <span className="text-blue-600"> O </span>{" "}
@@ -48,7 +48,7 @@ const Body = () => {
         <IoGameController className="inline text-red-500" />
       </h1>
 
-      <p className="my-1 text-gray-600">
+      <p className="mt-3 text-gray-600">
         Click the button that matches the color name,
         <span className="text-rose-500 font-bold"> not the text color! </span>
       </p>
@@ -71,11 +71,13 @@ const Body = () => {
           </button>
         ))}
       </div>
-      <div className="text-xl text-gray-800">Your Score : {score}</div>
+      <div className="text-xl text-gray-800">
+        <p>Your Score : {score}</p>
+      </div>
 
       <footer className="min-w-screen fixed bottom-0 bg-gray-500 flex items-center justify-center text-white py-3">
-        <PiCopyrightLight className="inline" /> {year}. Designed by Mr. Phyo.
-        All rights reserved.
+        <PiCopyrightLight className="inline" /> {year}. Designed by Mr. Phyo for
+        my BABY.
       </footer>
     </div>
   );
