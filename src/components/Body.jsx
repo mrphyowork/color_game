@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { IoGameController } from "react-icons/io5";
 import { PiCopyrightLight } from "react-icons/pi";
 
-const MainBody = () => {
+const Body = () => {
   const colors = ["Red", "Green", "Blue", "Gray", "Purple", "Orange"];
 
   function getRandomColor() {
@@ -81,4 +81,4 @@ const MainBody = () => {
   );
 };
 
-export default MainBody;
+export default Body;

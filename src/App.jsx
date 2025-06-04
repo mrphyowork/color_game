@@ -1,11 +1,11 @@
 import React from "react";
-import MainBody from "./components/mainBody";
 import Header from "./components/Header";
+import Body from "./components/Body";
 
 const App = () => {
   return (
     <div>
-      <MainBody />
+      <Body />
     </div>
   );
 };
